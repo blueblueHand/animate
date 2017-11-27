@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<style>
+	ul{
+		width: 100%;
+		display: block;
+	}
+	.tab{
+		float: left;
+		width: 100px;
+	}
+	.content-tab{
+		display: none;
+	}
+	.content-tab:nth-child(1){
+		display: block;
+	}
+</style>
+<body>
+	<ul>
+	<li id="tab1" class="tab" data-id='1'>课程</li>
+	<li id="tab2" class="tab" data-id='2'>文章</li>
+	<li id="tab3" class="tab" data-id='3'>hehe</li>
+	</ul>
+	<div class="content">
+		<div class="content-tab" data-id='1'>dsfsdf11111111</div>
+		<div class="content-tab" data-id='2'>dsfsdf22222222</div>
+		<div class="content-tab" data-id='3'>dsfsdf33333333</div>
+	</div>
+	@@include('./tpl/footer.html')
+</body>
+<script type="text/javascript" src="/lib/jquery/dist/jquery.js"></script>
+<script>
+	$(function(){
+		window.location.href="#tab1";
+		$('.tab').on('click',function(){
+			window.location.href="#"+$(this).attr('id');
+		})
+		window.onhashchange = function(){
+			var tabid = $(window.location.hash).attr('data-id');
+			console.log(tabid)
+			$('.content .content-tab').hide();
+			$('.content .content-tab[data-id='+tabid+']').show();
+		};
+	})
+</script>
+</html>
+

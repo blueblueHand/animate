@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="80px" height="25px" viewBox="0 0 80 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1 Copy 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="39.8201327 24.9045455 79.6401896 24.9045455 79.6401896 0 39.8201327 5.38289951e-15 7.58293839e-05 0 7.58293839e-05 24.9045455"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-2" transform="translate(-1153.000000, -246.000000)">
+            <g id="Page-1-Copy-6" transform="translate(1193.000000, 258.500000) scale(-1, 1) translate(-1193.000000, -258.500000) translate(1153.000000, 246.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M29.7562844,0 C38.4626351,0 46.2961896,3.68106061 51.8078483,9.56477273 C54.1854787,8.59621212 56.78491,8.05871212 59.512872,8.05871212 C69.5833934,8.05871212 77.9356209,15.3325758 79.6402654,24.9045455 L59.512872,24.9045455 L39.3850995,24.9045455 L7.58293839e-05,24.9045455 C2.51988626,10.7537879 14.8679431,0 29.7562844,0" id="Fill-1" fill="#FFFFFF" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>
